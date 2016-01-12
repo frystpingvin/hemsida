@@ -1,0 +1,18 @@
+---
+title: Projekt
+---
+<% project = locals[:project] %>
+
+<%= partial(:'partials/header', :locals => { :header_text => project[:client] }) %>
+
+<div class="project-link">
+  <a href="<%= project[:url] %>"><%= project[:url].gsub('http://', '') %></a>
+</div>
+
+<div class="project-case">
+  <% project[:showcase_images].each do |image| %>
+    <img src="<%= image %>">
+  <% end %>
+</div>
+
+<%= partial(:'partials/footer', :locals => { :button_text => "Se fler projekt", :button_link => "/projekt" }) %>

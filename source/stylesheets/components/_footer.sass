@@ -1,0 +1,24 @@
+footer
+  +clearfix
+  margin-bottom: $base-spacing
+
+.link
+  +span(12)
+
+  +breakpoint($tablet)
+    +span(6)
+
+  +breakpoint($desktop)
+    +span(3.75)
+
+  a
+    text-transform: uppercase
+
+.contact-details
+  +span(12)
+
+  +breakpoint($tablet)
+    +span(6 last)
+
+  +breakpoint($desktop)
+    +span(3)

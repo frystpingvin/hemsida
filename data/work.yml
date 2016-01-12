@@ -1,0 +1,49 @@
+projects:
+  - client: Fusion Associates
+    project_url: /projekt/fusion-associates.html
+    url: http://fusionassociates.eu
+    image: /images/projects/fusion-associates/main.png
+    showcase_images:
+      - /images/projects/fusion-associates/main.png
+      - /images/projects/fusion-associates/logotype.png
+      - /images/projects/fusion-associates/phone.png
+      - /images/projects/fusion-associates/collage.jpg
+
+  - client: JC (ACE)
+    project_url: /projekt/jc-(ace).html
+    url: http://jc-ace.se
+    image: /images/projects/jc-ace/main.png
+    showcase_images:
+      - /images/projects/jc-ace/main.png
+      - /images/projects/jc-ace/jc.jpg
+      - /images/projects/jc-ace/computer.jpg
+      - /images/projects/jc-ace/nudie.jpg
+
+  - client: Marknadsinformation
+    project_url: /projekt/marknadsinformation.html
+    url: http://marknadsinformation.se
+    image: /images/projects/marknadsinformation/main.png
+    showcase_images:
+      - /images/projects/marknadsinformation/main.png
+      - /images/projects/marknadsinformation/logotype.png
+      - /images/projects/marknadsinformation/computer.png
+      - /images/projects/marknadsinformation/symbols.png
+
+  - client: Nav PR
+    project_url: /projekt/nav-pr.html
+    url: http://navpr.se
+    image: /images/projects/nav-pr/main.png
+    showcase_images:
+      - /images/projects/nav-pr/main.png
+      - /images/projects/nav-pr/phone.png
+      - /images/projects/nav-pr/logotype.jpg
+
+  - client: Grey Advokatbyrå
+    project_url: /projekt/grey-advokatbyra.html
+    url: http://grey.se
+    image: /images/projects/grey/ipad.jpg
+    showcase_images:
+      - /images/projects/grey/ipad.jpg
+      - /images/projects/grey/logotype.png
+      - /images/projects/grey/computer.jpg
+      - /images/projects/grey/lawyers.jpg

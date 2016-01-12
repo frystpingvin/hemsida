@@ -1,0 +1,13 @@
+---
+title: Tidigare projekt
+---
+<%= partial(:'partials/header', :locals => { :header_text => "Tidigare projekt" }) %>
+<div class="projects">
+  <% data.work.projects.each do |project| %>
+  <a class="project" href="<%= project.project_url %>">
+    <img src="<%= project.image %>" alt="<%= project.client %>">
+    <span><%= project.client %></span>
+  </a>
+  <% end %>
+</div>
+<%= partial(:'partials/footer', :locals => { :button_text => "Tillbaka", :button_link => "/" }) %>
