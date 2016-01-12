@@ -31,12 +31,8 @@ end
 ###
 
 # Create project files from projekt/template
-# data.work.projects.each do |project|
-#   proxy "/projekt/#{ project([:client]).downcase.gsub(' ', '-') }.html", "/projekt/template.html", :layout => false, :locals => { :project => project }, :ignore => true
-# end
-
 data.work.projects.each do |project|
-    proxy "/projekt/#{ project.client.downcase.gsub(' ', '-').gsub('åä' , 'a').gsub('ö', 'o') }.html", "/projekt/template.html", :locals => { :project => project }, :ignore => true
+  proxy "/projekt/#{ project.client.downcase.gsub(' ', '-').gsub('åä' , 'a').gsub('ö', 'o') }.html", "/projekt/template.html", :locals => { :project => project }, :ignore => true
 end
 
 # Methods defined in the helpers block are available in templates
@@ -56,4 +52,15 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
+
+  ignore "/projekt/template.html"
+end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  # Optional Settings
+  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
+  # deploy.branch   = 'custom-branch' # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
