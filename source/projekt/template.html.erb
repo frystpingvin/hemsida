@@ -3,11 +3,13 @@ title: Projekt
 ---
 <% project = locals[:project] %>
 
-<%= partial(:'partials/header', :locals => { :header_text => project[:client] }) %>
-
-<div class="project-link">
-  <a href="<%= project[:url] %>"><%= project[:url].gsub('http://', '') %></a>
-</div>
+<header>
+  <h1><%= project[:client] %></h1>
+  <p>
+    <%= project[:description] %>
+    <a href="<%= project[:url] %>" target="_blank"><%= project[:url].gsub('http://', '') %></a>
+  </p>
+</header>
 
 <div class="project-case">
   <% project[:showcase_images].each do |image| %>
@@ -15,4 +17,15 @@ title: Projekt
   <% end %>
 </div>
 
-<%= partial(:'partials/footer', :locals => { :button_text => "Se fler projekt", :button_link => "/projekt" }) %>
+<footer>
+  <div class="link">
+    <%= link_to "Se fler projekt", "/" %>
+  </div>
+
+  <div class="contact-details">
+    <ul>
+      <li><a href="mailto:hej@samuellie.se">hej@samuellie.se</a></li>
+      <li>+46 709 82 92 51</li>
+    </ul>
+  </div>
+</footer>

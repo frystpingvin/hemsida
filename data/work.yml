@@ -1,49 +1,63 @@
 projects:
+  - client: Indie Lee
+    project_url: /projekt/indie-lee/index.html
+    description: Webshop for Indie Lee Scandinavia.
+    url: http://indielee.se
+    image: /images/projects/indie-lee/iphone.gif
+    showcase_images:
+      - /images/projects/indie-lee/iphone.gif
+      - /images/projects/indie-lee/computer.png
+      - /images/projects/indie-lee/ipad.png
+
+  - client: Hubbster Group
+    project_url: /projekt/hubbster-group/index.html
+    description: Working with interaction design for Hubbster Group in Stockholm.
+    url: http://hubbstergroup.com
+    image: /images/projects/hubbster-group/main.png
+    showcase_images:
+      - /images/projects/hubbster-group/computer-onboarding.png
+      - /images/projects/hubbster-group/computer-activities.png
+      - /images/projects/hubbster-group/computer-statistics.png
+
+  - client: Marknadsinformation Företagssök
+    project_url: /projekt/marknadsinformation-foretagssok/index.html
+    description: Interaction design for an prototype app for finding companies and direct contact information to their executives. Design made for Marknadsinformation i Sverige AB.
+    url: http://företagskontakt.se
+    image: /images/projects/soka-foretag/main.svg
+    showcase_images:
+      - /images/projects/soka-foretag/ipad-start.svg
+      - /images/projects/soka-foretag/ipad-search.svg
+      - /images/projects/soka-foretag/ipad-filter.svg
+
+  - client: JC (ACE)
+    project_url: /projekt/jc-(ace)/index.html
+    description: Website for JC's new brand ACE.
+    url: http://jc-ace.se
+    image: /images/projects/jc-ace/ipad.gif
+    showcase_images:
+      - /images/projects/jc-ace/ipad.gif
+      - /images/projects/jc-ace/jc.jpg
+      - /images/projects/jc-ace/computer.jpg
+      - /images/projects/jc-ace/nudie.jpg
+
   - client: Fusion Associates
-    project_url: /projekt/fusion-associates.html
+    project_url: /projekt/fusion-associates/index.html
+    description: Brand identity and website for executive search and recruitment firm Fusion Associates.
     url: http://fusionassociates.eu
     image: /images/projects/fusion-associates/main.png
     showcase_images:
       - /images/projects/fusion-associates/main.png
       - /images/projects/fusion-associates/logotype.png
       - /images/projects/fusion-associates/phone.png
-      - /images/projects/fusion-associates/collage.jpg
-
-  - client: JC (ACE)
-    project_url: /projekt/jc-(ace).html
-    url: http://jc-ace.se
-    image: /images/projects/jc-ace/main.png
-    showcase_images:
-      - /images/projects/jc-ace/main.png
-      - /images/projects/jc-ace/jc.jpg
-      - /images/projects/jc-ace/computer.jpg
-      - /images/projects/jc-ace/nudie.jpg
+      - /images/projects/fusion-associates/symbol.png
 
   - client: Marknadsinformation
-    project_url: /projekt/marknadsinformation.html
+    project_url: /projekt/marknadsinformation/index.html
+    description: Brand identity and website for Marknadsinformation i Sverige AB.
     url: http://marknadsinformation.se
     image: /images/projects/marknadsinformation/main.png
     showcase_images:
       - /images/projects/marknadsinformation/main.png
       - /images/projects/marknadsinformation/logotype.png
       - /images/projects/marknadsinformation/computer.png
-      - /images/projects/marknadsinformation/symbols.png
-
-  - client: Nav PR
-    project_url: /projekt/nav-pr.html
-    url: http://navpr.se
-    image: /images/projects/nav-pr/main.png
-    showcase_images:
-      - /images/projects/nav-pr/main.png
-      - /images/projects/nav-pr/phone.png
-      - /images/projects/nav-pr/logotype.jpg
-
-  - client: Grey Advokatbyrå
-    project_url: /projekt/grey-advokatbyra.html
-    url: http://grey.se
-    image: /images/projects/grey/ipad.jpg
-    showcase_images:
-      - /images/projects/grey/ipad.jpg
-      - /images/projects/grey/logotype.png
-      - /images/projects/grey/computer.jpg
-      - /images/projects/grey/lawyers.jpg
+      - /images/projects/marknadsinformation/symbols.gif

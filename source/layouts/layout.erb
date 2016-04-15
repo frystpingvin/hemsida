@@ -8,11 +8,11 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
     <%= stylesheet_link_tag :site %>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+    <script src="https://use.typekit.net/nfj0peo.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <%= javascript_include_tag :all %>
   </head>
 

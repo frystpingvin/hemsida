@@ -1,5 +1,34 @@
 ---
 title: Samuel Lie
 ---
-<%= partial(:'partials/header', :locals => { :header_text => "Titel" }) %>
-<%= partial(:'partials/footer', :locals => { :button_text => "Se tidigare projekt", :button_link => "/projekt" }) %>
+<header>
+  <h1>Designing and developing great things for the web</h1>
+</header>
+
+<div class="information">
+  <p>
+    Front-end developer creating user interfaces and digital brand identities. Currently working with Novium Designbyrå and Hubbster Group in Stockholm and Medon in Oslo.
+  </p>
+  <ul>
+    <li><a href="mailto:hej@samuellie.se">hej@samuellie.se</a></li>
+    <li>+46 709 82 92 51</li>
+  </ul>
+</div>
+
+<div class="projects">
+  <% data.work.projects.each do |project| %>
+    <% link_to("#{project.project_url}", { :class => "project" }) do %>
+      <img src="<%= project.image %>" alt="<%= project.client %>" onload="loaded();">
+      <span><%= project.client %></span>
+    <% end %>
+  <% end %>
+</div>
+
+<footer>
+  <div class="contact-details">
+    <ul>
+      <li><a href="mailto:hej@samuellie.se">hej@samuellie.se</a></li>
+      <li>+46 709 82 92 51</li>
+    </ul>
+  </div>
+</footer>

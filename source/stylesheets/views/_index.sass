@@ -2,12 +2,63 @@
   padding-top: $gutter-spacing*2
 
   header
-    +span(12)
+    +span(full)
 
-    +breakpoint($tablet)
-      +span(9)
-      +post(3)
+    h1
+      max-width: 750px
+
+    a
+      @extend .button
+
+  .information
+    +span(full)
+    position: relative
+    // z-index so it doesn't get positioned behind projects
+    z-index: $z-index-1
+    margin-bottom: $base-spacing
 
     +breakpoint($desktop)
-      +span(7)
-      +post(5)
+      +span(6)
+
+      ul
+        +push(6)
+        +span(6)
+
+  // Showcase all projects
+  .projects
+    +span(full)
+    position: relative
+    margin-bottom: $small-spacing
+
+    +breakpoint($tablet)
+      padding-top: 0
+
+    .project
+      +span(full)
+      position: relative
+      margin-bottom: $small-spacing
+      background: none
+
+      +breakpoint($tablet)
+        +span(6 last at 6)
+        margin-bottom: $gutter-spacing
+
+        &:nth-child(2n+2)
+          +span(6 at 0)
+
+        &:hover
+          img
+            opacity: 0.75
+
+          span
+            display: block
+            color: $base-font-color
+
+      img
+        display: block
+
+      span
+        display: none
+        position: absolute
+        bottom: $base-spacing
+        left: $base-spacing

@@ -18,12 +18,14 @@ h5,
 h6 {
   font-family: $heading-font-family;
   font-size: $base-font-size;
+  font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
 
 h1 {
   font-size: $h1-font-size*0.7;
+  margin-bottom: $small-spacing/2;
 
   @include breakpoint($desktop) {
     font-size: $h1-font-size;
@@ -41,8 +43,7 @@ a {
   &:active,
   &:focus,
   &:hover {
-    color: #fff;
-    background-color: #000;
+    text-decoration: underline;
   }
 }
 
@@ -58,4 +59,8 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+
+@include selection {
+  background-color: transparentize($yellow, 0.25);
 }

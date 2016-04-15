@@ -1,0 +1,25 @@
+.projekt
+  padding-top: $gutter-spacing*2
+
+  header
+
+    h1
+      margin-bottom: 8px
+
+    a
+      @extend .button
+
+    +breakpoint($tablet)
+      p
+        max-width: 80%
+
+// Specific project showcase
+.project-case
+  margin-bottom: $base-spacing
+
+  img
+    display: block
+    margin-bottom: $small-spacing
+
+    +breakpoint($tablet)
+      margin-bottom: $base-spacing

@@ -1,11 +1,14 @@
-#{$all-buttons} {
+#{$all-buttons},
+.button {
   appearance: none;
   color: $action-color;
+  border-bottom: 2px solid $yellow;
+  box-shadow: inset 0 -6px 0 $yellow;
 
   &:focus,
   &:hover {
-    color: #fff;
-    background-color: #000;
+    background-color: $yellow;
+    text-decoration: none;
   }
 
   &:disabled {
@@ -13,8 +16,7 @@
     opacity: 0.5;
 
     &:hover {
-      color: #fff;
-      background-color: lighten(#000, 50%);
+      color: $action-color;
     }
   }
 }

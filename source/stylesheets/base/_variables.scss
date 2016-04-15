@@ -4,18 +4,19 @@ $tablet: 600px;
 $desktop: 900px;
 
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: 'canada-type-gibson', $helvetica;
 $heading-font-family: $base-font-family;
-$base-font-weight: 700;
+$base-font-weight: 300;
+$heading-font-weight: 600;
 
 // Font Sizes
-$base-font-size: em(21px);
-$small-font-size: em(18px);
-$h1-font-size: 2.948em;
+$base-font-size: em(22px);
+$small-font-size: em(17px);
+$h1-font-size: em(39px);
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.45;
+$heading-line-height: 1.175;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -31,9 +32,10 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$yellow: #f7a800;
 
 // Font Colors
-$base-font-color: #000;
+$base-font-color: #272727;
 $action-color: $base-font-color;
 
 // Border
