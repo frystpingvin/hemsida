@@ -4,19 +4,19 @@ $tablet: 600px;
 $desktop: 900px;
 
 // Typography
-$base-font-family: 'canada-type-gibson', $helvetica;
+$base-font-family: 'sofia-pro', $helvetica;
 $heading-font-family: $base-font-family;
 $base-font-weight: 300;
-$heading-font-weight: 600;
+$heading-font-weight: 700;
 
 // Font Sizes
 $base-font-size: em(22px);
 $small-font-size: em(17px);
-$h1-font-size: em(39px);
+$h1-font-size: 2.5em;
 
 // Line height
-$base-line-height: 1.45;
-$heading-line-height: 1.175;
+$base-line-height: 1.4;
+$heading-line-height: 1.1375;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -31,7 +31,7 @@ $z-index-2: 99;
 $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
-$light-gray: #ddd;
+$light-gray: #EDEAEA;
 $yellow: #f7a800;
 
 // Font Colors

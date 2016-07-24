@@ -5,7 +5,8 @@ projects:
     url: http://indielee.se
     image: /images/projects/indie-lee/iphone.gif
     showcase_images:
-      - /images/projects/indie-lee/iphone.gif
+      - /images/projects/indie-lee/iphone-shop.png
+      - /images/projects/indie-lee/iphone-feed.png
       - /images/projects/indie-lee/computer.png
       - /images/projects/indie-lee/ipad.png
 
@@ -33,7 +34,7 @@ projects:
     project_url: /projekt/jc-(ace)/index.html
     description: Website for JC's new brand ACE.
     url: http://jc-ace.se
-    image: /images/projects/jc-ace/ipad.gif
+    image: /images/projects/jc-ace/main.png
     showcase_images:
       - /images/projects/jc-ace/ipad.gif
       - /images/projects/jc-ace/jc.jpg

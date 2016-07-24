@@ -4,6 +4,7 @@ body {
   font-size: $small-font-size;
   font-weight: $base-font-weight;
   line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased;
 
   @include breakpoint($tablet) {
     font-size: $base-font-size;
@@ -20,12 +21,12 @@ h6 {
   font-size: $base-font-size;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 0.4em;
 }
 
 h1 {
   font-size: $h1-font-size*0.7;
-  margin-bottom: $small-spacing/2;
+  margin-bottom: 0.3em;
 
   @include breakpoint($desktop) {
     font-size: $h1-font-size;
